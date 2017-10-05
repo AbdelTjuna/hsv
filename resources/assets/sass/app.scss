@@ -1,0 +1,27 @@
+//Vendor CSS
+@import "vendors/normalize";
+@import "vendors/swiper";
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+//Base Imports
+@import "base/typography";
+@import "base/colors";
+
+// Variables
+@import "helpers/variables";
+
+//Layout
+@import "layout/header";
+
+//HTML Elements
+@import "components/navigation";
+@import "components/lists";
+@import "components/slider";
+
+.swiper-container {
+  width: 100%;
+  height: 500px;
+}
+
