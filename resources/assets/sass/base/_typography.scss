@@ -24,3 +24,16 @@
   font-family: OpenSansLight;
   src: url("/fonts/OpenSans-Light.ttf");
 }
+
+.purple-content, .orange-content, .yellow-content, .red-content {
+  padding-top: 20px;
+}
+
+.blue-content, .green-content {
+  padding-top: 13px;
+}
+
+h1, h2, a, p {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}

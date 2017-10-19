@@ -16,7 +16,9 @@
 
   .language-switch {
     display: flex;
+    display: -webkit-flex;
     flex-flow: row;
+    -webkit-flex-flow: row;
     margin-left: 30%;
 
     li {
@@ -30,8 +32,11 @@
   height: 3em;
   width: 100%;
   display: flex;
+  display: -webkit-flex;
   flex-flow: row;
+  -webkit-flex-flow: row;
   justify-content: flex-end;
+  -webkit-justify-content: flex-end;
   background-color: #FF6520;
 
   li {
@@ -47,6 +52,7 @@
 
   .nav__sub--links {
     display: flex;
+    display: -webkit-flex;
     margin-top: 0.7em;
     margin-right: 10em;
   }

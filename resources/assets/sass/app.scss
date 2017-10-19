@@ -1,6 +1,7 @@
 //Vendor CSS
 @import "vendors/normalize";
-@import "vendors/swiper";
+@import "vendors/slider";
+@import "vendors/lity";
 
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
@@ -14,14 +15,24 @@
 
 //Layout
 @import "layout/header";
+@import "layout/footer";
+@import "layout/content.scss";
 
 //HTML Elements
 @import "components/navigation";
 @import "components/lists";
-@import "components/slider";
 
-.swiper-container {
-  width: 100%;
-  height: 500px;
+.sp-slides-container {
+  box-shadow: 0px 5px 37px -6px rgba(0, 0, 0, 0.29);
 }
+
+.sp-bottom-thumbnails {
+  margin-top: -80px;
+}
+
+.sp-bottom-thumbnails .sp-thumbnail-container, .sp-top-thumbnails .sp-thumbnail-container {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 
